@@ -1,4 +1,4 @@
-Getting Started
+###Getting Started 
 
 Create a.env file
 Enter your host,user,name,password,port number in this format
