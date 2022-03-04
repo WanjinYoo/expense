@@ -60,7 +60,9 @@ export default function Expense() {
     return (
         <>
             <div style={{ padding: '10%' }}>
-                <Helmet>Add Category Page</Helmet>
+                <Helmet>Add Expense Page</Helmet>
+                <div style={{fontWeight:800, fontSize:'1.5rem'}}>Add Expense</div>
+
                 {error && <small>{error}</small>}
 
                 <form onSubmit={addExpense}>

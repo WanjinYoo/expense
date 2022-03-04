@@ -54,7 +54,7 @@ export default function Landing() {
             <Helmet>Landing Page</Helmet>
             <div className="container mt-5">
                 <div className="row">
-                    <div>Exnpense</div>
+                    <div style={{fontWeight:800, fontSize:'1.5rem'}}>Exnpense</div>
                     <div className="col-sm-12">
                         {!error ? <table className="table">
                             <thead>
@@ -70,7 +70,7 @@ export default function Landing() {
                             </tbody>
                         </table> : error}
                     </div>
-                    <div>Categories</div>
+                    <div style={{fontWeight:800, fontSize:'1.5rem'}}>Categories</div>
                     <div className="col-sm-12">
                         {!error ? <table className="table">
                             <thead>

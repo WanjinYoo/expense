@@ -36,6 +36,8 @@ export default function Categories() {
         <>
             <div style={{ padding: '10%' }}>
                 <Helmet>Add Category Page</Helmet>
+                <div style={{fontWeight:800, fontSize:'1.5rem'}}>Add Category</div>
+
                 {error && <small>{error}</small>}
                 <form onSubmit={addCategory}>
                     <div className="form-group mt-2">
