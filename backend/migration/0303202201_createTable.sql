@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS expense CASCADE;
+
+
+CREATE TABLE expense (
+    id int (11) NOT NULL AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    cost INTEGER NOT NULL,
+    isDeleted boolean NOT NULL,
+    date_created TIMESTAMP  DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    PRIMARY KEY (id)
+  );
+
